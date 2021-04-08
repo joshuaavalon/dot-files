@@ -1,0 +1,49 @@
+{
+  // Edit settings in JSON
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  // Disable unwanted features
+  "workbench.editor.enablePreview": false,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.untitled.labelFormat": "name",
+  "editor.minimap.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.incrementalNaming": "smart",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  // Auto save
+  "files.autoSave": "onFocusChange",
+  // Appearance
+  "editor.fontSize": 12,
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": "all",
+  "editor.colorDecorators": true,
+  // Theme
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Nord",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Formatting
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
+}
